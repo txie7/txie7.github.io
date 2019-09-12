@@ -1,8 +1,15 @@
 - layout: top-middle
-  name: Super awesome project
+  name: Stabilized ultrasound imaging of a moving object using 2D B-mode images and deep learning
   link: github.com/sproogen
   github: sproogen/resume-theme
   quote: >
-    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+    The goal of this project is to develop a co-robotic ultrasound system which can compensate physiological motions of the lesion and provide stable imaging during biopsy. 
   description: | # this will include new lines to allow paragraphs
-    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+    In the procedure of needle biopsy, ultrasound imaging is broadly used as guidance. The view of the lesion always suffers from motion artifacts (e.g. respiratory motion). Moreover, the sonographers have to hold the probe for a very long time until a diagnosable sample is acquired. Hence, a co-robotic system which can automatically track the lesion will help both provide a more stable view and reduce the risk of getting musculoskeletal injuries for sonographers.
+    In this project, I developed a tracking algorithm which
+    - Implement conventional 2D image registration method to find in-plane transformation    
+    - Use a convolutional neural network (CNN) to estimate out-of-plane translation based on speckle decorrelation
+    - Estimate 6 DoF transformation error by doing point clouds registration between consecutive patches
+    - Apply PD control on Lie Group to realize velocity control 
+
+
