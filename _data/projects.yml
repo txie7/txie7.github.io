@@ -1,5 +1,5 @@
 - layout: top-middle
-  name: Stabilized ultrasound imaging of a moving object using 2D B-mode images and deep learning
+  name: Stabilized Ultrasound Imaging of A Moving Object Using 2D B-mode Images and Deep Learning
   link: github.com/sproogen
   github: sproogen/resume-theme
   quote: >
@@ -16,6 +16,6 @@
     Simulation results show that all absolute in-plane and out-of-plane translation errors are up to 0.7 mm when (axial, lateral, elevation) translation magnitudes are 4, 11, and 6 mm, respectively. Meanwhile, the absolute rotation error is up to 0.9 degree out of a 10-degree axial rotation magnitude.
 
 - layout: top-middle
-  name: A tendon-driven medical robot for dental applications
+  name: A Tendon-driven Medical Robot for Dental Applications
   description: |
 
