@@ -5,11 +5,17 @@
   quote: >
     The goal of this project is to develop a co-robotic ultrasound system which can compensate physiological motions of the lesion and provide stable imaging during biopsy. 
   description: | # this will include new lines to allow paragraphs
-    In the procedure of needle biopsy, ultrasound imaging is broadly used as guidance. The view of the lesion always suffers from motion artifacts (e.g. respiratory motion). Moreover, the sonographers have to hold the probe for a very long time until a diagnosable sample is acquired. Hence, a co-robotic system which can automatically track the lesion will help both provide a more stable view and reduce the risk of getting musculoskeletal injuries for sonographers.
-    In this project, I developed a tracking algorithm which
-    - Implement conventional 2D image registration method to find in-plane transformation    
-    - Use a convolutional neural network (CNN) to estimate out-of-plane translation based on speckle decorrelation
-    - Estimate 6 DoF transformation error by doing point clouds registration between consecutive patches
-    - Apply PD control on Lie Group to realize velocity control 
+    In the procedure of needle biopsy, ultrasound imaging is broadly used as guidance. The view of the lesion always suffers from motion artifacts (e.g. respiratory motion). Moreover, the sonographers have to hold the probe for a very long time until a diagnosable sample is acquired. Hence, a co-robotic system which can automatically track the lesion will help both provide a more stable view and reduce the risk of getting musculoskeletal injuries for sonographers. And compared to methods using RF data for estimating out-of-plane translation, the algorithm I developed makes use of normal B-mode images which are accessible on almost every commercial ultrasound machine.
 
+    In this project, I developed a tracking algorithm which
+    - Implements conventional 2D image registration method to find in-plane transformation    
+    - Uses a convolutional neural network (CNN) to estimate out-of-plane translation based on speckle decorrelation
+    - Estimates 6 DoF transformation error by doing point clouds registration between consecutive patches
+    - Applys PD control on Lie Group to realize velocity control
+
+    Simulation results show that all absolute in-plane and out-of-plane translation errors are up to 0.7 mm when (axial, lateral, elevation) translation magnitudes are 4, 11, and 6 mm, respectively. Meanwhile, the absolute rotation error is up to 0.9 degree out of a 10-degree axial rotation magnitude.
+
+- layout: top-middle
+  name: A tendon-driven medical robot for dental applications
+  description: |
 
