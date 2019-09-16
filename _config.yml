@@ -4,47 +4,47 @@ repository: sproogen/resume-theme
 
 # Personal info
 name: Tian Xie
-title: Graduate Student
+title: Graduate Student in Robotics
 email: txie7@jhu.edu
 website: www.github.com/sproogen/resume-theme
 
 # Social links
-twitter_username: facespics
+#twitter_username: facespics
 github_username:  txie7
 # dribbble_username: jekyll
-# facebook_username: jekyll
+#facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: 
-linkedin_username: tianxie
+#instagram_username: 
+#linkedin_username: tianxie
 # pinterest_username: jekyll
-youtube_username: 
+#youtube_username: 
 # googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Tian and I am a M.S.E student in Robotics at Johns Hopkins University. My focus is medical robotics. 
-
-  I am most skilled in: 
-
-# Projects Section
-# projects_title: Projects
-
-# Experience Section
-# experience_title: Experience
+  Hi, my name's Tian and I am a M.S.E student in Robotics at Johns Hopkins University. My main focus is medical robotics. I am currently working on a co-robotic ultrasound imaging system to compensate physiological motion of the lesion during biopsy. I also have interest in deep learning, motion planning and robot kinematics.
 
 # Education Section
-# educaton_title: Education
+# educaton_title: Education 
+
+# Research Projects Section
+# projects_title: Research Projects
+
+# Working Experience Section
+# experience_title: Working Experience
 
 # More Section
-# more_title: A Little More About Me
+# more_title: Skills
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
-   - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  I have experience in:
+   - MATLAB
+   - C++
+   - Python
+   - Tensorflow
+   - SolidWorks
+   - ROS
 
 # Footer
 footer_show_references: true

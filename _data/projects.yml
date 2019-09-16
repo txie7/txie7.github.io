@@ -2,9 +2,11 @@
   name: Stabilized Ultrasound Imaging of A Moving Object Using 2D B-mode Images and Deep Learning
   link: github.com/sproogen
   github: sproogen/resume-theme
-  quote: >
-    The goal of this project is to develop a co-robotic ultrasound system which can compensate physiological motions of the lesion and provide stable imaging during biopsy. 
+  quote: > Advisors Dr. Emad Boctor and Dr. Russell H. Taylor, JHU
+    
   description: | # this will include new lines to allow paragraphs
+    The goal of this project is to develop a co-robotic ultrasound system which can compensate physiological motions of the lesion and provide stable imaging during biopsy.    
+
     In the procedure of needle biopsy, ultrasound imaging is broadly used as guidance. The view of the lesion always suffers from motion artifacts (e.g. respiratory motion). Moreover, the sonographers have to hold the probe for a very long time until a diagnosable sample is acquired. Hence, a co-robotic system which can automatically track the lesion will help both provide a more stable view and reduce the risk of getting musculoskeletal injuries for sonographers. And compared to methods using RF data for estimating out-of-plane translation, the algorithm I developed makes use of normal B-mode images which are accessible on almost every commercial ultrasound machine.
 
     In this project, I developed a tracking algorithm which
@@ -17,5 +19,7 @@
 
 - layout: top-middle
   name: A Tendon-driven Medical Robot for Dental Applications
+  quoto: > Advisor Dr. Zheng Wang, HKU
   description: |
+    In this project, we built a prototype of a 5 DoF tendon-driven robot arm for dental applications. For the first generation, I was responsible for the I was responsible for the mechanical design. 
 
