@@ -2,7 +2,7 @@
   name: Stabilized Ultrasound Imaging of A Moving Object Using 2D B-mode Images and Deep Learning
   link: github.com/sproogen
   github: sproogen/resume-theme
-  quote: > Advisors Dr. Emad Boctor and Dr. Russell H. Taylor, JHU
+  quoto: > Advisors Dr. Emad Boctor and Dr. Russell H. Taylor, JHU
     
   description: | # this will include new lines to allow paragraphs
     The goal of this project is to develop a co-robotic ultrasound system which can compensate physiological motions of the lesion and provide stable imaging during biopsy.    
