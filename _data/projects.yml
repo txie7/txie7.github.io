@@ -1,7 +1,6 @@
 - layout: top-middle
   name: Stabilized Ultrasound Imaging of A Moving Object Using 2D B-mode Images and Deep Learning
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+  link: https://www.youtube.com/watch?v=YZxEe9s98II.
   description: | # this will include new lines to allow paragraphs
     Advisors Dr. Emad Boctor and Dr. Russell H. Taylor, JHU    
 
@@ -14,6 +13,8 @@
     - Uses a convolutional neural network (CNN) to estimate out-of-plane translation based on speckle decorrelation
     - Estimates 6 DoF transformation error by doing point clouds registration between consecutive patches
     - Applys PD control on Lie Group to realize velocity control
+    
+    I also works on the calibration and setup for the system.
 
     Simulation results show that all absolute in-plane and out-of-plane translation errors are up to 0.7 mm when (axial, lateral, elevation) translation magnitudes are 4, 11, and 6 mm, respectively. Meanwhile, the absolute rotation error is up to 0.9 degree out of a 10-degree axial rotation magnitude. Here is a link to a video for demo: https://www.youtube.com/watch?v=YZxEe9s98II. 
 
@@ -22,5 +23,18 @@
   description: |
     Advisor Dr. Zheng Wang, HKU    
     
-    In this project, we built a prototype of a 5 DoF tendon-driven robot arm for dental applications. For the first generation, I was responsible for the communication between 7 micro-controllers in the system. For the second generation, I was responsible for the mechanical design and kinematics analysis. 
+    In this project, we built a prototype of a 5 DoF tendon-driven robot arm for dental applications. The first generation has 7 DoF. Each degree is controlled by a pair of tendons and each tendon is driven by one motor. I was responsible for the communication between 7 micro-controllers in the system. I also did In the second generation, we decided to reduce the number of moters used in the system For the second generation, I was responsible for the mechanical design and kinematics analysis.
 
+
+- layout: top-middle
+  name: Path Planning for Holonomic and Non-holonomic Mobile Robots
+  description: |
+    This is a course project in Motion Planning. I implemented MinKowski sum algorithm for collision checking. I used PRM, RRT and EST algorithms for the path planning of a holonomic mobile robot. I also made a demo of the path planning for a non-holonomic triangular robot using RRT with my teammates.
+
+
+- layout: top-middle
+  name: Cardiac MRI Image Segmentation and Fast Registration
+  description: |
+    Advisor Dr. Xiahai Zhuang    
+    
+    In this project, I segmented cardiac images and I got a taste of Convolutional Neural Network at the time it just started to take off.

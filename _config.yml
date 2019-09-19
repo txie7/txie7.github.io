@@ -1,12 +1,12 @@
 # Site
-repository: sproogen/resume-theme
+#repository: sproogen/resume-theme
 # favicon: images/favicon.ico
 
 # Personal info
 name: Tian Xie
 title: Graduate Student in Robotics
 email: txie7@jhu.edu
-website: www.github.com/sproogen/resume-theme
+#website: www.github.com/sproogen/resume-theme
 
 # Social links
 #twitter_username: facespics
@@ -24,19 +24,19 @@ github_username:  txie7
 # about_title: About Me
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Tian and I am a M.S.E student in Robotics at Johns Hopkins University. My main focus is medical robotics. I am currently working on a co-robotic ultrasound imaging system to compensate physiological motion of the lesion during biopsy. I also have interest in deep learning, motion planning and robot kinematics.
+  Hi, my name's Tian and I am a M.S.E student in Robotics at Johns Hopkins University. My main focus is medical robotics. I am currently working on a co-robotic ultrasound imaging system to compensate physiological motion of the lesion during biopsy. I also have interest in more general topics in robotics about kinematics, motion planning and deep learning.
 
 # Education Section
-# educaton_title: Education 
+educaton_title: Education 
 
 # Research Projects Section
-# projects_title: Research Projects
+projects_title: Research Projects
 
 # Working Experience Section
-# experience_title: Working Experience
+experience_title: Working Experience
 
 # More Section
-# more_title: Skills
+more_title: Skills
 more_content: | # this will include new lines to allow paragraphs
   I have experience in:
    - MATLAB
