@@ -15,12 +15,12 @@
     - Estimates 6 DoF transformation error by doing point clouds registration between consecutive patches
     - Applys PD control on Lie Group to realize velocity control
 
-    Simulation results show that all absolute in-plane and out-of-plane translation errors are up to 0.7 mm when (axial, lateral, elevation) translation magnitudes are 4, 11, and 6 mm, respectively. Meanwhile, the absolute rotation error is up to 0.9 degree out of a 10-degree axial rotation magnitude.
+    Simulation results show that all absolute in-plane and out-of-plane translation errors are up to 0.7 mm when (axial, lateral, elevation) translation magnitudes are 4, 11, and 6 mm, respectively. Meanwhile, the absolute rotation error is up to 0.9 degree out of a 10-degree axial rotation magnitude. Here is a link to a video for demo: https://www.youtube.com/watch?v=YZxEe9s98II. 
 
 - layout: top-middle
   name: A Tendon-driven Medical Robot for Dental Applications
   description: |
     Advisor Dr. Zheng Wang, HKU    
     
-    In this project, we built a prototype of a 5 DoF tendon-driven robot arm for dental applications. For the first generation, I was responsible for the I was responsible for the mechanical design. 
+    In this project, we built a prototype of a 5 DoF tendon-driven robot arm for dental applications. For the first generation, I was responsible for the communication between 7 micro-controllers in the system. For the second generation, I was responsible for the mechanical design and kinematics analysis. 
 
